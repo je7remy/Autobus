@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+   	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+body{
+   padding-top: 79px; 
+}
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 rgba(0,0,158,.5);
+    min-height: 75px;
+   	
+	width: 100%;
+	z-index: 1000;
+    margin: auto;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+
+    
+}
+
+.nav-link {  	
+    color: #1a1a1a;
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+	
+}
+.nav-link:hover { 
+    color: darkblue; 
+}
+
+.navbar-toggler { font-size: 40px; }
+.navbar-toggler:focus { outline: none; }
+
+
+.enlaces i {
+	font-size: 18px;
+}
+
+
+
+.portfolio-details a h2, .portfolio-details a p{
+    color: white;
+    text-decoration: none;
+}
+
+.portfolio{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.portfolio img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.portfolio:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.portfolio-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    color: white;
+
+}
+
+.portfolio-details h2 {
+    margin-bottom: 0px;
+}
+
+.tam img{
+   height: 400px;
+    
+}
+
+
+
+.info-container {
+	width: 100%;
+	background: #f2f2f2;
+	font-family: Raleway;
+}
+
+.info-main {
+	width: 98%;
+	max-width: 1000px;
+	margin: auto;
+	text-align: center;
+	padding: 30px 200px;
+}
+
+.info-main h3 {
+	color: #00C6EE;
+	font-size: 40px;
+	text-align: center;
+}
+
+.info-main p {
+	padding: 20px 0;
+}
+
+
+.info-main a {
+	display: inline-block;
+	background: #BF0026;
+	color: #fff;
+	text-decoration: none;
+	padding: 12px 20px;
+}
+
+footer {
+	width: 100%;
+	font-family: Raleway;
+}
+
+.footer-container {
+	width: 100%;
+	background: #272727;
+	color: #fff;
+}
+
+.footer-main {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 50px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer-main .footer-columna {
+	width: calc(100% / 3);
+	text-align: justify;
+}
+
+
+.footer-main .footer-columna:nth-child(2) {
+	padding: 0 20px;
+}
+
+.footer-main .footer-columna h3 {
+	font-size: 32px;
+	color: #00C6EE;
+	margin-bottom: 20px;
+}
+
+
+
+.footer-main .footer-columna span p {
+	display: inline-block;
+	margin-left: 5px;
+	margin-bottom: 15px;
+	font-family: Raleway;
+}
+
+.footer-copy-redes {
+	width: 100%;
+	background: #272727;
+	border-top: 3px solid #fff;
+}
+
+.main-copy-redes {
+	width: 98%;
+	max-width: 1000px;
+	padding: 15px 0;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.main-copy-redes .footer-copy {
+	width: 70%;
+	color: #fff;
+}
+
+.main-copy-redes .footer-redes {
+	width: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+.main-copy-redes .footer-redes a {
+	display: inline-block;
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius:50%;
+	background: #fff;
+	color: #000;
+	text-align: center;
+}
+
+@media screen  and (max-width: 750px) {
+	.info-main {
+		padding: 30px 100px;
+	}
+
+	.footer-main .footer-columna {
+		padding: 0 10px;
+	}
+
+	.footer-main .footer-columna h3 {
+		font-size: 28px;
+	}
+
+	.footer-main .footer-columna p {
+		font-size: 14px;
+	}
+}
+
+@media screen  and (max-width: 640px) {
+	.info-main {
+		padding: 30px 30px;
+	}
+
+	.info-main h3 {
+		font-size: 30px;
+	}
+
+	.footer-main {
+		padding: 10px 0;
+	}
+
+	.footer-main .footer-columna {
+		width: 100%;
+		text-align: center;
+		margin: 10px 0;
+	}
+
+	.footer-main .footer-columna h3 {
+		margin-bottom: 5px;
+	}
+
+	.footer-main .footer-columna span {
+		display: block;
+	}
+	
+	.main-copy-redes .footer-copy {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.main-copy-redes .footer-redes {
+		width: 80%;
+		margin: auto;
+	}
+
+}

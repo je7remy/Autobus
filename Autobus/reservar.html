@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilosReservar.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <title>Reserva tu Ticket</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <img src="img/logo.PNG"  height="40px"  class="logo-brand" alt="logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="enlaces navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reservar.html"><i class="fas fa-file-signature"></i> Reservar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Ruta.html"><i class="fas fa-route"></i> Rutas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html"><i class="fas fa-file-alt"></i> Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactanos.html"><i class="far fa-envelope"></i> Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-portada">
+        <div class="capa-gradient"></div>
+        <div class="container-details">
+            <div class="details">
+                <h1>Boletos online de manera segura aqui!</h1>
+                <p>Reservarva la cantidad de tickets que quieras rapidamente desde tu casa, de una forma segura y a un buen precio, para viajar a el lugar que quieras de la mejor forma posible!</p>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+
+   
+    <div class="container col-xs-10 col-sm-10 folmularioreser animated bounceInDown">
+       
+        <form class="form-horizontal col-xs-12 d-flex justify-content-center ">
+           <div class="centro">
+            <div class="form-row">
+                <div class="col-md-3">
+                    <label for="origen">Origen</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+                        </div>
+                        <select class="custom-select mr-sm-2" id="origen" required>
+                            <option selected>Desde donde viaja?</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="destino">Destino</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-directions"></i></span>
+                        </div>
+                        <select class="custom-select mr-sm-2" id="destino" required>
+                            <option selected>Hacia donde va?</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="salida">Salida</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                        </div>
+                        <input type="date" class="form-control" id="salida" placeholder="Fecha de salida" required>
+                    </div>
+                </div>
+
+                <div class="col-md-2  mb-3">
+                   <label for="cantidad">Pasajeros</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-male"></i></span>
+                        </div>
+                        <input type="number" class="form-control" id="cantidad" placeholder="cantidad" required>
+                    </div>
+                </div>
+
+                <div class="col-md-1 boton">
+                   <br>
+                    <button class="btn btn-primary" id="btnbuscar" type="submit">Buscar</button>
+                    <br>
+                </div>
+            </div>
+            </div>
+        </form>
+        <br>
+    </div> 
+  <br>
+
+
+    <br>
+    <div class="info-container ">
+        <div class="info-main">
+            <h3>Contactenos</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit assumenda quibusdam enim minima nostrum, hic, vitae dolore commodi modi cum iste porro doloremque ullam eligendi soluta aspernatur voluptates distinctio quasi.</p>
+            <a href="contactanos.html">Enviar mensaje</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container ">
+            <div class="footer-main">
+                <div class="footer-columna">
+                    <h3>Localizanos</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60548.026308108216!2d-69.95070407561464!3d18.47225723379638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd618760af960e1d5!2sMAPS%20Casual%20Bistro!5e0!3m2!1ses-419!2sdo!4v1573009424303!5m2!1ses-419!2sdo" width="290" height="100" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+                </div>
+
+                <div class="footer-columna">
+                    <h3>Dirección</h3>
+                    <span class="fa fa-map-marker">
+                        <p class="font-weight-light">244 Av. plaza michel - RD</p>
+                    </span>
+                    <span class="fa fa-envelope">
+                        <p class="font-weight-light">infodelapaquenotiene@gmail.com</p>
+                    </span>
+                    <span class="fa fa-phone">
+                        <p class="font-weight-light">829 657 6543</p>
+                    </span>
+
+                </div>
+
+
+                <div class="footer-columna">
+                    <h3>Sobre Nosotros</h3>
+                    <p class="font-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur repellat autem, error iste odio atque eum assumenda rem aliquam, consequatur excepturi reiciendis corrupti velit aperiam?</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copy-redes">
+            <div class="main-copy-redes">
+                <div class="footer-copy font-weight-light">
+                    &copy; 2019 Todos los Derechos Reservados | <a href="login.html">iniciar sesion</a>
+                </div>
+                <div class="footer-redes">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body></html>
