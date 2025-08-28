@@ -44,7 +44,7 @@ Autobus/
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tuusuario/Autobus.git
+   git clone https://github.com/je7remy/Autobus.git
    cd Autobus
    ```
 2. Abre el archivo `index.html` en tu navegador.
